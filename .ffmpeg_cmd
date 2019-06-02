@@ -1,1 +1,2 @@
 C:\msys64\mingw64\bin\ffmpeg.exe
+C:\msys64\mingw64\bin\ffmpeg.exe -c:v h264 -f h264 -i .\output\20190601-122447.h264 -c:v rawvideo -f rawvideo -pix_fmt yuv420p -s 192x108 .\output\20190601-122447.yuv
